@@ -1,18 +1,20 @@
 #content {
   display: flex;
+  flex-wrap: wrap;
   width: 600px;
   height: 600px;
+  background-color: aquamarine;
+}
+
+#content > div {
+  border: solid 1px;
+  box-sizing: border-box;
+}
+
+#reset-btn {
+  font-size: 32px;
   background-color: aqua;
-}
-
-#content > * {
-  flex: 1;
-}
-
-#content div div:hover {
-  background-color: rgb(55, 155, 55);
-}
-
-.box:hover {
-  background-color: rgb(88, 253, 12);
+  padding: 0px 20px;
+  border-radius: 5px;
+  margin: 0px 10px 10px 250px;
 }
